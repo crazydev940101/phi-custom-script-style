@@ -98,6 +98,8 @@ class Phi_Custom_Script_Style_Public {
 
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/phi-custom-script-style-public.js', array( 'jquery' ), $this->version, false );
 
+		wp_enqueue_script( 'phi-seo-accessibility-improvement', plugin_dir_url( __FILE__ ) . 'js/phi-seo-accessibility-improvement.js', array( 'jquery' ), $this->version, false );
+
 	}
 
 }
