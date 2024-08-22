@@ -4,5 +4,5 @@
  */
 
  .elementor-widget-hotspot {
-    overflow-x: hidden;
+    overflow-x: clip;
 }
